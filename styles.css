@@ -2,21 +2,37 @@
 
 body {
     background-color: darkgoldenrod;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: 900 ;
+    /* border-width: inherit;
+    border-style: double;
+    border-color: red; */
+    outline-color: red;
+    outline-style: groove;
+    outline-width: thick;
+    background-color: darkkhaki;
+    padding: 10px;
 }
 
 ul {
     font-weight: 800;
+}
 
+li {
+  font-weight: 700;
 }
 
 .main {
     color: hsl(0, 0%, 0%);
+    font-weight: 600;
     background-color: rgb(189, 151, 47);
+    width: auto;
+    max-width: 530px
 
-  }
-  
-div {
-    color: red;
   }
 
   .note {
@@ -24,19 +40,26 @@ div {
     font-size: 12px;
   }
 
-.button {
-  background-color: black;
-  font-weight: 700;
-  color: crimson;
-  border: 2px solid DodgerBlue;
- }
-
- #prova {
+ .button.index {
   color: crimson;
   text-align: center;
   margin: auto; /* allinea oggetto al centro */
   background-color: black;
   width: 190px;
-  border: 4px solid dodgerblue;
+  border: 3px solid dodgerblue;
   padding: 2px;
+}
+
+.recipe-main-img {
+  height: 500px ;
+  width: 500px ;
+  border: 5px solid gold;
+  background-color:darkorange;
+  padding: 5px;
+}
+
+.steps {
+  border: 5px solid gold;
+  background-color:darkorange;
+  padding: 10px;
 }
