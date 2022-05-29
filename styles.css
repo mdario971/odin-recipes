@@ -94,6 +94,8 @@ div.desc {
   text-align: center;
   font-size:x-large;
 }
+*/
+
 .recipe-main-img {
   height: 500px ;
   width: 500px ;
@@ -102,7 +104,7 @@ div.desc {
   padding: 5px;
 }
 
-*/
+
 
 .steps {
   border: 5px solid gold;
