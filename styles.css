@@ -265,3 +265,12 @@ li.topmenu:hover{
   li.hidden{
     list-style-type: none;
   }
+
+  .WIP{
+    font-size: xx-large;
+    background-color: red;
+    color: yellow;
+    border: 5px dotted yellow;
+    padding: 50px;
+    margin: 0 auto;
+  }
