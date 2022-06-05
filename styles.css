@@ -20,6 +20,10 @@ body.index{
   margin-left: 105px;
 }
 
+body.recipes{
+  margin-top: 80px;
+}
+
 h1 {
     font-weight: 900 ;
     /* border-width: inherit;
@@ -58,7 +62,7 @@ li {
   display: block;
   color: crimson;
   text-align: center;
-  margin: auto; /* allinea oggetto al centro */
+  margin:40px auto 20px; /* allinea oggetto al centro */
   background-color: rgb(0, 0, 0);
   width:fit-content;
   border: 3px solid dodgerblue;
@@ -70,6 +74,7 @@ li {
   padding: 0.2em 1.2em;
   margin: 0px;
   font-weight:700;
+  color:yellow;
 }
 
 .button.index :hover{
@@ -197,7 +202,7 @@ div.topmenu {
   position:fixed;
   width: 100%;
   height: 40px;
-  margin: -50px 50px 50px -50px;
+  margin: -80px 50px 50px -50px;
   background-color: rgb(117, 117, 117);
 }
 
