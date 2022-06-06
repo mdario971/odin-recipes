@@ -20,7 +20,8 @@ body.index{
   margin-left: 105px;
 }
 
-body.recipes{
+body.recipes,
+body.contact{
   margin-top: 80px;
 }
 
